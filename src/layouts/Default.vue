@@ -1,12 +1,12 @@
 <template>
   <div class="layout overflow-x-hidden flex flex-col min-h-screen">
-    <Navbar class="mt-4 px-3" />
-    <div class="flex-1">
-      <!-- <transition name="fade"> -->
+    <Navbar class="pt-4 px-3 md:px-12 lg:pl-32" />
+    <div class="flex-1 flex justify-center">
+      <transition name="fade" appear>
         <slot />
-      <!-- </transition> -->
+      </transition>
     </div>
-    <Footer />
+    <Footer class="flex-0" />
   </div>
 </template>
 
@@ -36,7 +36,7 @@ body
   @apply font-sans
 
 .fade-enter-active
-  transition: opacity 0.5s
+  transition: opacity 0.4s
 
 .fade-enter
   opacity: 0

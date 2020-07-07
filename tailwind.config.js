@@ -1,7 +1,7 @@
 const plugin = require('tailwindcss/plugin')
 
 module.exports = {
-  purge: [],
+  purge: false,
   theme: {
     fontFamily: {
       sans: ['Metropolis', 'Helvetica', 'Arial', 'sans-serif'],
@@ -31,6 +31,9 @@ module.exports = {
         '32': '32em',
         '24': '24em',
       },
+      width: {
+        '40r': '40rem'
+      }
     },
   },
   variants: {},
