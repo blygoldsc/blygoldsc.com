@@ -1,14 +1,18 @@
-# Default starter for Gridsome
+# BlygoldSC / Custom HVAC Coatings Website
 
-This is the project you get when you run `gridsome create new-project`.
+> Developed by [`sergix`](https://www.sergix.dev/)
 
-### 1. Install Gridsome CLI tool if you don't have
+## Development
 
-`npm install --global @gridsome/cli`
+The BlygoldSC website uses Vue and [Gridsome](https://gridsome.org) to generate the site in a component-based environment and statically built.
 
-### 2. Create a Gridsome project
+The site is deployed to and hosted on [Netlify](https://netlify.com).
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+### Local development
+
+1. clone the repo
+2. `yarn install` or `npm install`
+3. `yarn serve` or `npm run serve` to launch the development server
+4. `yarn build` or `npm run build` to build
+
+> © 2020 BlygoldSC, Licensed under GPLv3.0
