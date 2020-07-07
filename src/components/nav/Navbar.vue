@@ -41,7 +41,7 @@ export default {
   data() {
     return {
       menuButtonActive: false,
-      isMobile: window.outerWidth < 768,
+      isMobile: false,
     }
   },
   computed: {
@@ -75,6 +75,9 @@ export default {
   },
   mounted() {
     this.$nextTick(() => {
+      // initial call
+      this.onResize()
+      
       window.addEventListener('resize', this.onResize);
     })
   },
