@@ -31,6 +31,9 @@ module.exports = {
         '32': '32em',
         '24': '24em',
       },
+      width: {
+        '40r': '40rem'
+      }
     },
   },
   variants: {},

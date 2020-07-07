@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex flex-row flex-shrink-0 h-24 md:max-w-4xl md:ml-40">
+  <nav class="flex flex-row flex-shrink-0 h-24 w-full" :class="{ absolute: isIndexPage }">
     <MobileMenu :active="menuButtonActive" @close="closeMenu" />
     <g-link
       class="logo w-48 flex items-center ml-2"
@@ -41,15 +41,13 @@ export default {
   data() {
     return {
       menuButtonActive: false,
+      isMobile: window.outerWidth < 768,
     }
   },
   computed: {
     isIndexPage() {
       return this.$route.path === '/'
     },
-    isMobile() {
-      return window.outerWidth < 768
-    }
   },
   methods: {
     toggleMenu() {
@@ -71,6 +69,17 @@ export default {
       this.menuButtonActive = false
       this.toggleBodyOverflow()
     },
+    onResize() {
+      this.isMobile = window.outerWidth < 768
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      window.addEventListener('resize', this.onResize);
+    })
+  },
+  beforeDestroy() { 
+    window.removeEventListener('resize', this.onResize); 
   },
 }
 </script>
