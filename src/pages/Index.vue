@@ -6,7 +6,7 @@
 
         <g-image class="w-56 mt-12 md:mt-0 md:hidden" src="@/assets/image/logo/logo_white.svg" />
         <div>
-          <h1 class="mt-8 text-hero leading-tight font-semibold md:mt-0 md:text-5xl md:max-w-2xl">Low-cost and efficient commercial HVAC component coating.</h1>
+          <h1 class="mt-8 text-hero leading-tight font-semibold md:mt-24 lg:mt-0 md:text-4xl lg:text-5xl md:max-w-2xl">Low-cost and efficient commercial HVAC component coating.</h1>
           <object class="float-right p-2 -mr-24 -mt-12 md:hidden">
             <svg height="135" width="135">
               <circle cx="75" cy="65" r="60" stroke="#ffba00" stroke-width="0" fill="#ffba00" />
@@ -17,7 +17,7 @@
           </p>
         </div>
       </div>
-      <div class="mt-24 md:max-w-4xl md:mx-auto md:flex justify-center items-center">
+      <div class="mt-24 ml-auto max-w-lg md:max-w-4xl md:mx-auto md:flex justify-center items-center">
         <img class="w-40r p-16 hidden md:block dots scroll-animated" src="@/assets/image/clipart/dots-primary.svg" />
         <div class="md:p-16">
           <g-image class="ml-6" src="@/assets/image/hero-image_flipped.png" />
@@ -27,7 +27,7 @@
           </div>
         </div>
       </div>
-      <div class="mt-24 md:max-w-4xl md:mx-auto md:flex justify-center items-center">
+      <div class="mt-24 max-w-lg md:max-w-4xl md:mx-auto md:flex justify-center items-center">
         <div class="md:p-16">
           <g-image class="-ml-6" src="@/assets/image/hero-image_flipped.png" />
           <div class="mr-8 mt-6 flex flex-col px-4 md:mr-2">
