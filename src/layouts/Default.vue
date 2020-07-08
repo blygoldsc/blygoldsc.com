@@ -1,7 +1,7 @@
 <template>
   <div class="layout overflow-x-hidden flex flex-col min-h-screen">
     <Navbar class="pt-4 px-3 md:px-12 lg:pl-32" />
-    <div class="flex-1 flex justify-center">
+    <div class="flex flex-grow justify-center">
       <transition name="fade" appear>
         <slot />
       </transition>
