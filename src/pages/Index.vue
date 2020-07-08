@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="mt-24 ml-auto max-w-lg md:max-w-4xl md:mx-auto md:flex justify-center items-center">
-        <img class="w-40r p-16 hidden md:block dots scroll-animated" src="@/assets/image/clipart/dots-primary.svg" />
+        <img class="w-40r p-16 hidden md:block dots scroll-animated max-w-sm" src="@/assets/image/clipart/dots-primary.svg" />
         <div class="md:p-16">
           <g-image class="ml-6" src="@/assets/image/hero-image_flipped.png" />
           <div class="ml-8 mt-6 flex flex-col px-4 md:ml-2">
@@ -35,7 +35,7 @@
             <p class="mt-4 text-right">With more than 40 years of experience and know-how, Blygold is the market leader in high-end corrosion protection of HVAC equipment.</p>
           </div>
         </div>
-        <img class="w-40r p-16 hidden md:block dots scroll-animated" src="@/assets/image/clipart/dots.svg" />
+        <img class="w-40r p-16 hidden md:block dots scroll-animated max-w-sm" src="@/assets/image/clipart/dots.svg" />
       </div>
       <div class="text-white bg-black py-12 px-6 mt-16 md:mt-32 md:max-w-xl md:p-20 md:mx-auto description-box scroll-animated">
         <section>
