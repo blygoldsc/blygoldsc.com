@@ -5,7 +5,7 @@
       class="absolute bg-black text-white left-0 top-0 w-screen h-screen flex flex-col px-6 z-10 pt-24 menu"
     >
       <Links class="flex-1 nav-links mt-8" @click="$emit('close')" />
-      <div class="mx-auto">
+      <div class="mx-auto mb-8">
         <g-image class="w-48 mx-auto" src="@/assets/image/logo/logo_white.svg" />
         <p class="text-sm text-gray-400 my-6">Copyright 2020 Custom HVAC Coatings</p>
       </div>

@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex flex-row flex-shrink-0 h-24 w-full" :class="{ absolute: isIndexPage }">
+  <nav class="flex flex-row flex-shrink-0 h-24 w-full z-10" :class="{ absolute: isIndexPage }">
     <MobileMenu :active="menuButtonActive" @close="closeMenu" />
     <g-link
       class="logo w-48 flex items-center ml-2"
@@ -77,7 +77,7 @@ export default {
     this.$nextTick(() => {
       // initial call
       this.onResize()
-      
+
       window.addEventListener('resize', this.onResize);
     })
   },
