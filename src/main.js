@@ -10,12 +10,6 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Layout', DefaultLayout)
 
   head.meta.push({
-    key: 'og:description',
-    name: 'og:description',
-    content: `Low-cost and efficient commercial HVAC component coating.`,
-  })
-
-  head.meta.push({
     name: 'keywords',
     content: 'HVAC,Coating,Commercial,Charleston,South Carolina',
   })
@@ -46,5 +40,11 @@ export default function (Vue, { router, head, isClient }) {
     key: 'og:site_name',
     name: 'og:site_name',
     content: `BlygoldSC`,
+  })
+
+  head.meta.push({
+    key: 'og:description',
+    name: 'og:description',
+    content: `Low-cost and efficient commercial HVAC component coating.`,
   })
 }
