@@ -1,6 +1,6 @@
 <template>
   <div class="layout overflow-x-hidden flex flex-col min-h-screen">
-    <Navbar class="pt-4 px-3 md:px-12 lg:pl-32" />
+    <Navbar class="pt-16 px-3 md:px-12 lg:ml-16" />
     <div class="flex flex-grow justify-center">
       <transition name="fade" appear>
         <slot />
