@@ -19,5 +19,20 @@ module.exports = {
     {
       use: 'gridsome-plugin-tailwindcss',
     },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        config: {
+          '/contact': {
+            changefreq: 'monthly',
+            priority: 0.7,
+          },
+          '/': {
+            changefreq: 'monthly',
+            priority: 0.8,
+          },
+        },
+      },
+    }
   ]
 }

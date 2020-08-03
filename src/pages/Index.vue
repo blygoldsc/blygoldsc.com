@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <main>
-      <div class="hero text-white h-screen w-screen px-6 flex flex-col justify-center md:mx-auto md:px-16 md:max-w-5xl">
+      <div class="hero text-white h-screen w-screen px-6 flex flex-col justify-center md:mx-auto md:px-16 md:max-w-6xl mt-2">
         <img class="absolute top-0 left-0 h-screen w-screen object-cover object-left hero-image z-neg-1" src="@/assets/image/hero-image_flipped.png" />
 
         <g-image class="w-56 mt-12 md:mt-0 md:hidden" src="@/assets/image/logo/logo_white.svg" />
