@@ -13,7 +13,7 @@
     "typeface-metropolis": "^0.0.74"
   },
   "devDependencies": {
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "sass-loader": "^7.x"
   }
 }
